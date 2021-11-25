@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -5433028019280988155
-    second: FlappySprites_0
+    second: tlo
   - first:
       213: -6376367901664132178
-    second: FlappySprites_1
+    second: rura1
   - first:
       213: -8241154173328528301
-    second: FlappySprites_2
+    second: rura2
   - first:
       213: -258530379695387820
     second: FlappySprites_3
@@ -106,10 +106,10 @@ TextureImporter:
     second: FlappySprites_34
   - first:
       213: 6027645771334047011
-    second: FlappySprites_35
+    second: Game
   - first:
       213: -7453981985810195059
-    second: FlappySprites_36
+    second: Over
   - first:
       213: -6654841166665701492
     second: FlappySprites_37
@@ -171,7 +171,7 @@ TextureImporter:
       213: 755986232815907942
     second: FlappySprites_4
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -191,6 +191,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -200,8 +201,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -222,9 +223,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -290,7 +295,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FlappySprites_0
+      name: tlo
       rect:
         serializedVersion: 2
         x: 3
@@ -311,7 +316,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlappySprites_1
+      name: rura1
       rect:
         serializedVersion: 2
         x: 152
@@ -332,7 +337,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlappySprites_2
+      name: rura2
       rect:
         serializedVersion: 2
         x: 180
@@ -1004,7 +1009,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlappySprites_35
+      name: Game
       rect:
         serializedVersion: 2
         x: 152
@@ -1025,7 +1030,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlappySprites_36
+      name: Over
       rect:
         serializedVersion: 2
         x: 206
@@ -1453,7 +1458,7 @@ TextureImporter:
         width: 20
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
