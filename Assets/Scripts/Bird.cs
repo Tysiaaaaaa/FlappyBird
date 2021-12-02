@@ -17,7 +17,7 @@ public class Bird : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             iloscKlatek++;
-            Debug.Log("Update" + iloscKlatek);
+          //  Debug.Log("Update" + iloscKlatek);
             rb.velocity = new Vector2(0, Force);
         }
     }
