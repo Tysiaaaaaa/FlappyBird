@@ -6,6 +6,7 @@ public class Bird : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float Force;
+    public Sprite DeadBird;
     int iloscKlatek = 0;
     private void Start()
     {

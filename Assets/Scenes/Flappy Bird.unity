@@ -265,6 +265,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 53516702}
   Force: 4
+  DeadBird: {fileID: -7969131692057484925, guid: 56b883a6edadd41438846aa555af08e2,
+    type: 3}
 --- !u!70 &53516704
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
